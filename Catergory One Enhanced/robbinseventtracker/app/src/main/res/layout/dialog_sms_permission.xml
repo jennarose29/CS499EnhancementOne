@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Enable Event Notifications"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="To receive notifications about your upcoming events, please allow SMS permissions."
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/buttonAllowPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Allow"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonDenyPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not Now"/>
+
+</LinearLayout>
